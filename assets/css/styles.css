@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+}
+
+/* Buttons (Add Task) */
+a {
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+
+/* Task card */
+.task {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Header layout */
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Status badge */
+.status {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* Pending */
+.status.pending {
+    background: #ffe0e0;
+    color: #d60000;
+}
+
+/* Completed */
+.status.completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+/* Description */
+.task p {
+    margin: 10px 0;
+}
+
+/* Delete button */
+.delete-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.edit-btn {
+    background: orange;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.edit-btn:hover {
+    background: darkorange;
+}
